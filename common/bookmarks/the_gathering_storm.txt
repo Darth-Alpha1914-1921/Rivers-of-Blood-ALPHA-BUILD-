@@ -1,0 +1,78 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1934.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+        "PRS" = {
+		  history = "PRS_GATHERING_STORM_DESC"
+		  ideology = reactionary
+		  ideas = {
+		     minority_troubles
+		     weak_king
+		     prussian_army
+		  }
+		  focuses = {
+		     PRS_jngersjunta
+		     PRS_vydnasrules
+		     PRS_rosenbergspresidency
+		  }
+		}
+		"LIT"={
+			history = "LIT_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+           samogitian_identity
+		   pelekists_rising
+		   pearl_of_stability
+			}
+			focuses = {
+            LIT_kunigaiktisvisuomis
+			LIT_tautosvadasmironas
+			LIT_thepresidentwholivesasapeasant
+			}
+		}
+
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = socialist
+			ideas = {
+				deutsche_volksarmee
+				german_partisans
+				spartakus_triumphant
+			}
+			focuses = {
+				GER_nationalbolshevikmajority
+				GER_democraticsocialistmajority
+				GER_luxembourgistmajority
+			}
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+			ideas = {
+			famine_of_1933
+			birthplace_of_revolution
+			bourgeoisie_influence
+			}
+			focuses = {
+			SOV_effectsoffamine
+			SOV_firstfiveyearplan
+			SOV_thenewsovietarmy
+			}	
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
