@@ -8,24 +8,7 @@ GER_german_expansion = {
  fire_only_once = yes
   available = {
   has_war = no
- custom_trigger_tooltip	= {
- tooltip = "One of factions has prevailed in Austrian Civil War"
- date > 1934.9.1
- OR = { 
-  ACM = {
-   exists = yes
-   has_war = no
-    }
-  THR = {
-   exists = yes
-   has_war = no
-    }
-  AUS = {
-   exists = yes
-   has_war = no
-    }   
-   }
-  }
+  date > 1934.9.1
  }
  complete_effect = {
   if = {
@@ -38,6 +21,7 @@ GER_german_expansion = {
 }
   if = {
    limit = { AUS = { exists = yes } }
+   AUS = { country_event =  { id = spartakus_germany.23 days = 3 } }
 }      
    }
  }
