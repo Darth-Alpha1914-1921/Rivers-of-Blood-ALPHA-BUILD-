@@ -38,7 +38,6 @@ GER_german_expansion = {
 }
   if = {
    limit = { AUS = { exists = yes } }
-   THR = { country_event =  { id = spartakus_germany.23 days = 3 } }
 }      
    }
  }
@@ -341,7 +340,7 @@ GER_german_export_revolution = {
 }
   if = {
    limit = { AUS = { exists = yes } }
-   THR = { country_event =  { id = spartakus_germany.23 days = 3 } }
+   AUS = { country_event =  { id = spartakus_germany.23 days = 3 } }
 }      
    }
 
